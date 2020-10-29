@@ -1,5 +1,5 @@
 #!/bin/bash
-killall -INT geth
+killall -I geth
 killall constellation-node
 
 if [ "`jps | grep tessera`" != "" ]
